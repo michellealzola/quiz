@@ -1,0 +1,111 @@
+body {
+    font-family: 'Raleway', sans-serif;       
+    margin: 0;
+    padding: 0; 
+    background-image: url("../images/PATTERN2quiz-04-05.png");
+    background-repeat: repeat;
+    background-attachment: fixed;  
+    color: rgb(18, 24, 14);       
+}
+
+div.container{
+    background-color: rgb(254, 255, 250);
+    margin: 5%;
+    margin-top: 1%;
+    margin-bottom: auto;
+    padding: 2%;    
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(36, 42, 58); 
+    text-align: center; 
+    padding: 0;  
+    
+}
+div.container header {
+    width: 100%;
+    padding-left: 0;
+    text-align: center; 
+    margin: 0;    
+    margin-top: 0;
+    padding-top: 3%;       
+    background-color: rgb(250, 240, 229);
+    border-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-bottom: 3%;
+}
+div.container header h1 {
+    font-size: 300%;
+    color:rgb(116, 123, 161);    
+    margin: 0; 
+    padding-bottom: 0%;
+    
+}
+div.container header p{
+    margin-top: 0;
+    padding: 0;
+    padding-bottom: 1%;
+    font-size: 120%;
+}
+div.container main { 
+    width: auto;
+    margin: 2%; 
+    margin-top: 3%;
+    padding: 1%;   
+    padding-bottom: 5%;
+    text-align: left;
+   
+}
+div.container main h2 {
+    font-weight: 400;
+    color:rgb(77, 88, 134);
+    margin-bottom: 3%;
+    
+   
+} 
+label {
+    font-size: 120%;
+
+}
+
+input {
+    width: 10%;
+    height: 15px;
+    font-size: 120%;
+    font-family: 'Raleway', sans-serif;    
+    margin-bottom: 3%;
+   
+}
+button {
+    width: 15%;
+    height: 40px;
+    font-size: 120%;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    color:rgb(51,93,159); 
+    background-color: rgb(179, 210, 247);
+    border-radius: 5px; 
+    border-style:none;   
+}
+button:hover {
+    background-color: rgb(152, 185, 223);
+}
+
+#quizItems {
+    font-size: 130%;
+}
+table {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 2%;    
+    font-size: 150%;
+    border-spacing: 5px;  
+}
+
+#score_show {
+    opacity: 0;
+}
+
+#score {
+    font-size: 150%; 
+}

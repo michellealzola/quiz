@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Final Quiz</title>
+        <meta name = "author" content="Michelle Alzola">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type = "text/css" href="./styles/quizstyles.css"> 
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <header>
+                <img src="./images/LOGOquiz-03.png" alt="Final Quiz Logo" width="200">
+                <h1>Final Quiz</h1>
+            </header>
+
+            <main>
+                <div>
+                    <!-- <input type="text" id="question_search" onkeyup="questionSearch();"> -->
+                    <button id="question_search" onclick="questionSearch();">Start Quiz</button>
+                </div>
+                
+
+                <table id="quizItems">
+
+                    
+
+                </table>
+
+                <div id="quiz_display">
+
+
+                </div>
+                <div id="score_show">
+                    <button class = "submitbutton" onclick="score();" >Grade Quiz</button>
+                </div>
+            
+                <div id="score">
+            
+                </div>      
+
+            </main>
+            <script type="text/javascript" src="./scripts/quizscripts.js"></script>
+
+        </div>
+        
+    </body>
+</html>
